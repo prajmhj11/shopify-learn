@@ -85,9 +85,9 @@
         "1643044328a4331ed6-2"
       ],
       "settings": {
-        "category_menu_enable": false,
+        "category_menu_enable": true,
         "category_title": "Categories",
-        "category_menu_handle": "",
+        "category_menu_handle": "category-menu",
         "category_menu_limit_handle": 9,
         "more_title": "More categories",
         "close_title": "Close menu",
