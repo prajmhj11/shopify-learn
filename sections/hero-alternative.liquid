@@ -1,0 +1,99 @@
+<section class="section section--promobox-info clearfix" style="background-image: url({{ section.settings.background_img | img_url: '2000x' | format: 'jpg' }}); background-position: center bottom; background-repeat: no-repeat; background-size: cover; background-color: {{section.settings.background_color}}; padding-top: {{section.settings.padding_top}}px; padding-bottom: {{section.settings.padding_bottom}}px; margin:0;">
+  <div class="wrapper">
+
+          <div class="promobox-msg text-center">
+            <h2 class="hero-products__title" style="color: {{section.settings.font_color}}; font-size: {{section.settings.font_size}}px;">{{ section.settings.heading }}</h2>
+            <p style="color: {{section.settings.font_color}};">{{ section.settings.subheading  }}</p>
+          </div>
+
+  </div> <!-- End wrapper -->
+</section>
+
+{% schema %}
+  {
+    "name": "Hero Alternative",
+    "settings": [
+      {   "type": "header",
+          "content": "Content",
+          "info":   "Add your main catchphrase here"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Home.Care.Warmth"
+      },
+      {
+        "type": "textarea",
+        "id": "subheading",
+        "label": "Message",
+        "default": "This is everything we follow cooking our dishes",
+        "info": "HTML tags could be used"
+      },
+      {   "type": "header",
+          "content": "Typography",
+          "info": "Adjust typography settings here"
+      },
+      {    "type":      "range",
+           "id":        "font_size",
+           "min":       63,
+           "max":        135,
+           "step":       3,
+           "unit":       "px",
+           "label":     "Font size",
+           "default":   81
+      },
+      {
+        "type": "color",
+        "id": "font_color",
+        "label": "Typography",
+        "default": "#5c4b51"
+      },
+      {   "type": "header",
+          "content": "Background",
+          "info": "Adjust background settings here"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background",
+        "default": "#f5f4f4"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_img",
+        "label": "Background image"
+      },
+      {   "type": "header",
+          "content": "Spacing",
+          "info":   "Adjust top and bottom spacing within this section here"
+      },
+      {
+          "type":      "range",
+          "id":        "padding_top",
+          "min":       0,
+          "max":        500,
+          "step":       10,
+          "unit":       "px",
+          "label":     "Paddings",
+          "default":   50
+      },
+      {
+          "type":      "range",
+          "id":        "padding_bottom",
+          "min":       0,
+          "max":        500,
+          "step":       10,
+          "unit":       "px",
+          "label":     "Paddings",
+          "default":   50
+      }
+    ],
+	"presets": [
+      {
+        "name": "Hero Alternative",
+        "category": "Hero sections"
+      }
+    ]
+  }
+{% endschema %}

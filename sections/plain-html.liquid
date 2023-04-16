@@ -1,0 +1,69 @@
+<style media="screen">
+  {{ section.settings.custom_css }}
+</style>
+<section class='custom-html'>
+  {% for block in section.blocks %}
+    {{block.settings.html_block}}
+  {% endfor %}
+</section>
+{% schema %}
+  {
+    "name": "Plain HTML section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Custom HTML section"
+      },
+      {
+        "type": "paragraph",
+        "content": "This area allows you put html code blocks in this section. All blocks are nested is <section class='custom-html'> tag"
+      },
+      {
+        "type": "header",
+        "content": "Custom CSS"
+      },
+      {
+        "type": "paragraph",
+        "content": "This area allows you make style changes of the section. Just insert required CSS rules in the text area below. We encourage you to make CSS customizations here to save them from being overwritten after future updates ⚙️"
+      },
+      {
+        "type": "textarea",
+        "id": "custom_css",
+        "placeholder": ".custom-html .your-class {\n  style: value;\n}",
+        "label": "Your CSS styles here 👇",
+        "info": "CSS rules applied in this textarea may overwrite any Foodly CSS rules that have the same property and are applied to the same selectors"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "HTML block",
+        "settings": [
+          {
+            "type": "header",
+            "content": "HTML block"
+          },
+          {
+            "type": "paragraph",
+            "content": "This area allows you put any html code block in this section."
+          },
+          {
+            "type": "html",
+             "id": "html_block",
+             "label": "Custom HTML",
+             "default": "<div><p>Some HTML content</p></div>"
+          }
+        ]
+      }
+    ],
+    "presets": [{
+      "name": "Plain HTML section",
+      "category": "Custom code",
+      "blocks": [
+        {
+          "type": "block"
+        }
+      ]
+    }]
+  }
+{% endschema %}

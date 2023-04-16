@@ -1,0 +1,418 @@
+{
+  "blogs": {
+    "general": {
+      "heading": "Blog",
+      "heading_for_recipes": "Recetas",
+      "subheading": "Con Amor",
+      "by_author": "por"
+    },
+    "article": {
+      "older_post": "Publicaciones mas antiguas",
+      "newer_post": "Publicaciones mas nuevas",
+      "by_author": "por",
+      "for_product": "para"
+    },
+    "comments": {
+      "heading": "Comentarios",
+      "title": "Deja un comentario",
+      "posted_on": "Publicado el",
+      "posted_by": "por",
+      "name": "Nombre",
+      "email": "Correo",
+      "message": "Comentario",
+      "post": "Publicar mi comentario",
+      "moderated": "Comentarios son moderados",
+      "success_moderated_html": "Tu comentario será publicado.",
+      "success_html": "Tu comentario fue publicado exitosamente."
+    },
+    "sorting": {
+      "show_more": "Mostrar mas",
+      "hide_tags": "Esconder etiquetas",
+      "reset_filters": "Reiniciar Filtros",
+      "sorting_alphabet": "abcdefghijklmnñopqrstuvwxyz"
+    },
+    "months_for_sorting": {
+      "january": "Enero",
+      "february": "Febrero",
+      "march": "Marzo",
+      "april": "Abril",
+      "may": "Mayo",
+      "june": "Junio",
+      "july": "Julio",
+      "august": "Agosto",
+      "september": "Septiembre",
+      "october": "Octubre",
+      "november": "Noviembre",
+      "december": "Diciembre"
+    }
+  },
+  "cart": {
+    "general": {
+      "heading": "Tu Bolsa de Comida",
+      "product_title": "Titulo de Producto",
+      "quantity": "CANTIDAD",
+      "price": "Precio",
+      "remove": "x",
+      "total": "Total",
+      "total_information": "Precio no incluye entrega.",
+      "note_heading": "Nota para la tienda Foodly",
+      "note_placeholder": "Deja tus requerimientos especiales acá",
+      "checkout_button": "Continuar al pago",
+      "additional_information_heading": "Elegir Paquete",
+      "additional_information_one": "bolsa papel",
+      "update_cart": "Actualizar Carrito",
+      "added_to_cart_html": "<span>¡Eso!<\/span>Este producto se agrego al carro con éxito.",
+      "added_to_cart_products_html": "<span>¡Eso!<\/span>Todos los productos se agregaron al carro con éxito."
+    },
+    "empty": {
+      "heading": "Oh, No!",
+      "button": "Miralo",
+      "additional_information_html": "Tu carrito esta vacío. Tenemos una nueva llegada."
+    },
+    "calculator": {
+      "country": "Pais",
+      "province": "Providencia",
+      "zip": "Código Postal"
+    },
+    "cart_page": {
+      "continue_shopping": "Continuar Comprando",
+      "within": "En colecciones Foodly"
+    }
+  },
+  "collections": {
+    "list_collections": {
+      "heading": "Colecciones de Producto"
+    },
+    "product_list": {
+      "products_in_collection": "productos en colección ",
+      "product_in_bag": "en tu bolsa"
+    },
+    "product_sorting": {
+      "all_products": "Todos los productos",
+      "all_tags": "Todas las etiquetas"
+    },
+    "sorting_order": {
+      "default": "Orden por defecto",
+      "best_selling": "Más Vendidos",
+      "title_ascending": "Alfabéticamente: A-Z",
+      "title_descending": "Alfabéticamente: Z-A",
+      "price_ascending": "Precio: Bajo a Alto",
+      "price_descending": "Precio: Alto a Bajo",
+      "created_descending": "Fecha: Nuevo a Viejo",
+      "created_ascending": "Fecha: Viejo a Nuevo"
+    }
+  },
+  "products": {
+    "product_page": {
+      "description_title": "Descripción",
+      "special_recipe_title": "Receta Special",
+      "random_recipe_title": "Receta al azar",
+      "special_recipe_license_mark": "Cr\\00e9ditos\\003a",
+      "customer_reviews": "Reseñas de clientes",
+      "similar_products_title": "Productos Similar",
+      "sold_out": "sin inventario"
+    },
+    "general": {
+      "sale_badge_text": "Promo",
+      "in_stock": "Con Inventario",
+      "out_stock": "Sin inventario",
+      "per": "por",
+      "kilogram": "Kilogram"
+    }
+  },
+  "password_and_404": {
+    "404": {
+      "home_link": "Home",
+      "search_link": "Buscar",
+      "not_found": "No se encontró",
+      "heading": "A veces estar vació no es malo",
+      "explanation": "Visita nuestras otras colecciones para encontrar mas productos"
+    },
+    "password": {
+      "openning_soon": "Ya casi está listo",
+      "message_to_subscribe": "Únete a nuestra lista de correo para ser notificado cuando Foodly este listo.",
+      "signed_up": "¡Gracias por inscribirte!",
+      "share_title_password_page": "Compartelo"
+    }
+  },
+  "gift_cards": {
+    "general": {
+      "expirated": "Vence el",
+      "disabled": "Tarjeta deshabilitada",
+      "print": "Imprimir",
+      "email": "Correo",
+      "start_shopping_button": "Comenzar compra",
+      "expiration_date": "Fecha de vencimiento",
+      "subheading": "Usa el código para reclamar tu tarjeta de regalo.",
+      "first_name_call": "Hola,"
+    }
+  },
+  "landing_page": {
+    "countdown": {
+      "countdown_seconds": "Segundos",
+      "countdown_minutes": "Minutos",
+      "countdown_hours": "Horas",
+      "countdown_days": "Días"
+    },
+    "general": {
+      "purchase": "Comprar",
+      "product_cta_text_left": "Mejor oferta de",
+      "product_cta_text_right": "Totalmente empacado",
+      "for_each": "para cada",
+      "from": "de",
+      "get_for_button": "Conseguir",
+      "prev_review": "Previo",
+      "next_review": "Siguiente"
+    }
+  },
+  "contact": {
+    "short": {
+      "hours": "Horas",
+      "email": "Correo",
+      "phone": "Teléfono "
+    },
+    "form": {
+      "heading": "Chatiemos",
+      "message": "Mi mensaje...",
+      "name": "Mi nombre es...",
+      "email": "Me pueden responder a...",
+      "send_button": "Enviar Mensaje",
+      "post_success_html": "<span>¡Bien!<\/span> Tu mensaje fue enviado."
+    },
+    "detailed": {
+      "show_map": "Revisar en el mapa",
+      "grocery_store": "Supermercado",
+      "farm_facilities": "Granjas"
+    }
+  },
+  "customer": {
+    "activate_account": {
+      "heading": "Activar cuenta",
+      "subheading": "Crea tu contraseña para activar tu cuenta",
+      "password": "Contraseña",
+      "confirm_password": "Confirma Contraseña",
+      "activate_button": "Activar Cuenta",
+      "decline_invitation": "Rechazar Invitación "
+    },
+    "general": {
+      "first_name": "Nombre",
+      "last_name": "Apellido",
+      "email": "Correo",
+      "password": "Contraseña",
+      "password_info": "La contraseña debe tener 6 caracteres. Solo caracteres de la A-Z y 0-9 son permitidos. "
+    },
+    "registration": {
+      "heading": "Crear cuenta",
+      "first_name": "Nombre",
+      "last_name": "Apellido",
+      "email": "Correo",
+      "password": "Contraseña",
+      "create_my_account_button": "Crear una cuenta",
+      "create_account_button": "Crear cuenta",
+      "cancel": "Volver a la tienda",
+      "subheading": "Aprovecha nuestro sistema de pedidos"
+    },
+    "login": {
+      "heading": "Login",
+      "subheading": "Que bueno que volviste",
+      "email": "Correo",
+      "password": "Contraseña",
+      "forgot_password": "Olvide mi Contraseña",
+      "login_button": "Login",
+      "login_button_large": "Ingresar a Mi Cuenta",
+      "dont_have_account": "¿No tienes cuenta aun?",
+      "create_it": "Creala Acá",
+      "logout": "Cerrar Sesión"
+    },
+    "recover_password": {
+      "title": "Enviaremos un link para que recuperes tu contraseña a tu email.",
+      "email": "Correo",
+      "success": "Link Enviado! Revisa tu correo.",
+      "button": "Recuperar mi contraseña",
+      "cancel": "Cancelar"
+    },
+    "reset_password": {
+      "heading": "Reiniciar contraseña",
+      "subheading": "crea una nueva contraseña para tu cuenta",
+      "password": "Contraseña",
+      "password_confirm": "Confirma Contraseña",
+      "reset_password_button": "Reinicia Contraseña"
+    },
+    "account": {
+      "heading": "Mi Cuenta",
+      "subheading": "donde puedes encontrar tu historial de pedidos",
+      "view_addresses": "Ver direcciones",
+      "wish_list": "Revisar lista de deseos"
+    },
+    "addresses": {
+      "heading": "Direcciones de la cuenta",
+      "subheading": "no hay límite, puedes agregar todas las direcciones que necesites",
+      "add_new_address": "Agregar dirección",
+      "add_new_address_heading": "Nueva dirección",
+      "default_address": "Dirección por defecto",
+      "first_name": "Primer Nombre\/Razon Social",
+      "last_name": "Apellido",
+      "company": "Empresa",
+      "address1": "Dirección",
+      "address2": "Dirección 2",
+      "city": "Ciudad",
+      "country": "Pais",
+      "province": "Departamento",
+      "zip": "Codigo Postal",
+      "phone": "Teléfono ",
+      "use_as_a_default": "Usar como dirección principal",
+      "default": "Principal",
+      "add_address_button": "Agregar nueva dirección",
+      "cancel": "Cancelar",
+      "edit_address": "Editar",
+      "edit_address_heading": "Ajustar dirección",
+      "delete_address": "Borrar",
+      "update_address": "Actualizar dirección",
+      "delete_address_heading": "¡Oh No!",
+      "delete_address_info": "Esta dirección va a ser borrada. No va a poder ser usada para entregas.",
+      "delete_address_cancel_btn": "No, cancelar",
+      "delete_address_delete_confirm": "Si, borrar"
+    },
+    "orders": {
+      "heading": "Orden",
+      "order_number": "Orden",
+      "date": "Fecha",
+      "payment_status": "Estado de pago",
+      "fulfillment_status": "Estado de Envío",
+      "billing_address_title": "Dirección de facturación ",
+      "shipping_address_title": "Dirección de envío",
+      "total": "Total",
+      "item": "Item",
+      "sku_item": "SKU",
+      "price_item": "Precio",
+      "quantity_item": "Cantidad",
+      "total_item": "Total",
+      "subtotal": "Subtotal",
+      "discount": "Descuento",
+      "shipping": "Envío",
+      "tax": "IVA",
+      "none": "No tienes ordenes. productos",
+      "cancelled": "Perdon, esta orden ha sido cancelada.",
+      "cancelled_reason": "La razón de cancelación e",
+      "cancelled_contact_html": "Si tienes dudas sobre este pedido, por favor usa este formulario <a href='\/pages\/contact' title='Contact with us'>contact form<\/a>"
+    }
+  },
+  "layout": {
+    "copyright": {
+      "right_reserved": "Derechos Reservados."
+    },
+    "search": {
+      "heading": "Buscar",
+      "placeholder": "Estoy buscando...",
+      "placeholder_for_header": "Escribe tu solicitud de busqueda",
+      "header_full_placeholder_normal_state": "Estoy buscando...",
+      "header_full_placeholder_voice_state": "Grabando...",
+      "button": "Buscar en la tienda",
+      "header_full_placeholder_processing_state": "Espera un poco - Ya casi termina",
+      "header_full_captcha_text": "Excediste el número de intentos permitidos, por favor resuelve el CAPTCHA.",
+      "header_full_block_msg": "Oh no! El micrófono está bloqueado por tu navegador. Por favor, permítenos usar el microfono.",
+      "results": "Resultados de búsqueda de",
+      "result_count": "Item no encontrado",
+      "ajax_search_more_characters": "Por favor, ingresa 2 caracteres más",
+      "ajax_search_no_results_html": "No tenemos este producto.",
+      "nothing_to_found_html": "No tenemos ese producto.",
+      "header_full_unable_recognize": "No reconocemos audio."
+    },
+    "cart": {
+      "open_cart": "Abrir Carrito",
+      "close_cart": "Cerrar"
+    },
+    "menu": {
+      "open_menu": "Abrir Menu",
+      "close_menu": "Cerrar",
+      "view_account": "Mi Cuenta",
+      "create_account": "Crear Cuenta",
+      "orders": "Ordenes",
+      "addresses": "Direcciones ",
+      "wishlist": "Lista de deseo",
+      "currency": "Moneda"
+    },
+    "general": {
+      "check_it_button": "Revisar",
+      "subscribe_button": "Suscribir",
+      "add_to_cart_button": "Agregar al carrito",
+      "next_button": "Siguiente",
+      "previous_button": "Atrás",
+      "back_button": "Atrás",
+      "share_title": "Compartir"
+    },
+    "wishlist_page": {
+      "heading": "Lista de deseos",
+      "item": "Producto",
+      "price": "Precio",
+      "delete": "Borrar",
+      "add_to_bag": "Agregar al carrito",
+      "add_to_wishlist": "Agregar a la lista de deseos",
+      "added_to_wishlist": "Agregado a la lista de deseos",
+      "wishlist": "Lista de deseos",
+      "empty_heading": "¡Oh, no!",
+      "product_deleted": "Este producto fue borrado de tu lista de deseos.",
+      "subheading": "Guarda tus productos acá para seguir comprando",
+      "empty_info_html": "Tu lista de deseos está vacía.",
+      "error_state": "Perdon, algo falló. Por favor intenta nuevamente.",
+      "already_in_wishlist_html": "Este producto esta en tu <a class='text-link--default' href='\/pages\/wish-list'>wishlist<\/a>"
+    },
+    "lookbook_page": {
+      "lookbook_total": "Total",
+      "recipe_detail": "conoce bien este producto",
+      "after_link_text": "para mas detalles",
+      "link_text": "Revisa la receta completa"
+    }
+  },
+  "general": {
+    "meta": {
+      "tags": "Etiquetado \"{{ tags }}\"",
+      "page": "Página {{ page }}"
+    },
+    "hero_image": {
+      "button": "Mirar el libro"
+    },
+    "form_popup_errors": {
+      "name_html": "<span>Ooops!<\/span> El nombre está vacío",
+      "last_name_html": "<span>Ooops!<\/span> El apellido está vacío",
+      "fullname_html": "<span>Perdón...<\/span> Por favor escribe el nombre completo",
+      "author_html": "El nombre está vacío ",
+      "email_html": "<span>Ooops!<\/span> Por favor revisa el email",
+      "password_html": "<span>Espera<\/span> La contraseña debe tener mínimo 6 caracteres",
+      "message_html": "<span>Ooops!<\/span> Este campo está vacío.",
+      "comment_author_html": "<span>Perdón...<\/span> Este campo esta vacío. Por favor, complétalo.",
+      "city_html": "<span>Perdón...<\/span> Este campo esta vacío. Por favor, complétalo.",
+      "country_html": "<span>Perdón...<\/span> Este campo esta vacío. Por favor, complétalo.",
+      "address1_html": "<span>Oops...<\/span> Este campo esta vacío. Por favor, complétalo.",
+      "zip_html": "<span>Oh!...<\/span> El código postal está incorrecto."
+    }
+  },
+  "additional_blocks": {
+    "recipe_block_1": {
+      "button": "Revisar Ingredientes"
+    },
+    "recipe_block_2": {
+      "button": "Revisar Recetas"
+    },
+    "hero_image": {
+      "button": "Mirar el libro"
+    },
+    "hero_about_us": {
+      "button": "Mira nuestra historia"
+    }
+  },
+  "tabs": {
+    "products_picker": {
+      "fourth_button_name": "Agregar al carrito",
+      "link_to_recipe": "Conoce los ingredientes de este producto",
+      "third_button_name": "Sumar el total",
+      "second_button_name": "Platos hechos a mano",
+      "first_button_name": "Revisar Ingredientes",
+      "ingredient_pack_from": "Paquete de ingredientes de",
+      "tab_four": "Resumen",
+      "tab_three": "accesorios",
+      "tab_two": "ingredientes",
+      "tab_one": "platos"
+    }
+  }
+}
