@@ -1519,10 +1519,27 @@
               "other_pages_content_color": "#071c1f",
               "other_pages_border_color": "#e5eaee"
             }
+          },
+          "0432fa68-94d5-4bd0-8e6b-6fe28c5e0d91": {
+            "type": "header_color",
+            "settings": {
+              "header_color_enable": true,
+              "header_bg_color": "#fff",
+              "header_color": "#222",
+              "header_sticky_bg_color": "#fff",
+              "header_sticky_color": "#222",
+              "other_pages_header_color_enable": true,
+              "other_pages_header_bg_color": "#fff",
+              "other_pages_header_color": "#071c1f",
+              "other_pages_support_icon_color": "#e53e29",
+              "other_pages_header_sticky_bg_color": "#fff",
+              "other_pages_header_sticky_color": "#071c1f"
+            }
           }
         },
         "block_order": [
-          "068b3c6c-edc8-4e26-8b5f-12fa17f559a3"
+          "068b3c6c-edc8-4e26-8b5f-12fa17f559a3",
+          "0432fa68-94d5-4bd0-8e6b-6fe28c5e0d91"
         ],
         "settings": {
           "header_transparent_enable": false,
@@ -1620,14 +1637,14 @@
           "large_width_enable": true,
           "footer_top_enable": true,
           "copyright_enable": true,
-          "copyright_conten_style": "style_2",
+          "copyright_conten_style": "style_3",
           "menu_handle": "footer",
           "logo_width": 150,
           "copyright_title": "Copyright & Design By",
           "copyright_content": "Autixir -",
           "copyright_year_enable": true,
           "copy_ritht_text": "<p>Copyright ©Autixir All Right Reserved.<\/p>",
-          "section_color_enable": false,
+          "section_color_enable": true,
           "footer_bg_color": "#f2f6f7",
           "footer_color": "#071c1f",
           "footer_widget_title_color": "#071c1f",
