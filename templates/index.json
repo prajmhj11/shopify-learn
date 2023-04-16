@@ -245,7 +245,7 @@
           "type": "category",
           "settings": {
             "category_handle": "best-selling",
-            "category_description_enable": false,
+            "category_description_enable": true,
             "category_custom_description": "<ul>\n                                <li><a href=\"#\">Wheel Bearing Retainer<\/a><\/li>\n                                <li><a href=\"#\">Brake Conversion Kit<\/a><\/li>\n                                <li><a href=\"#\">Shock Mount Insulator<\/a><\/li>\n                                <li><a href=\"#\">Tail Light Lens<\/a><\/li>\n                            <\/ul>"
           }
         },
