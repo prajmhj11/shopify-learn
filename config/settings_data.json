@@ -12,7 +12,7 @@
     "typography_enable": false,
     "body_font_handle": "open_sans_n4",
     "header_font_handle": "rajdhani_n7",
-    "newsletter_popup_enable": true,
+    "newsletter_popup_enable": false,
     "newsletter_bg_img": "shopify:\/\/shop_images\/newsletter-popup-1.jpg",
     "newletter_popup_title": "NEWSLETTER",
     "newsletter_text": "Enter your email below to receive a $30 coupon, special offers, exclusive discounts and more!",
@@ -1524,15 +1524,15 @@
             "type": "header_color",
             "settings": {
               "header_color_enable": true,
-              "header_bg_color": "#fff",
-              "header_color": "#222",
-              "header_sticky_bg_color": "#fff",
-              "header_sticky_color": "#222",
+              "header_bg_color": "#ffffff",
+              "header_color": "#222222",
+              "header_sticky_bg_color": "#ffffff",
+              "header_sticky_color": "#222222",
               "other_pages_header_color_enable": true,
-              "other_pages_header_bg_color": "#fff",
+              "other_pages_header_bg_color": "#ffffff",
               "other_pages_header_color": "#071c1f",
               "other_pages_support_icon_color": "#e53e29",
-              "other_pages_header_sticky_bg_color": "#fff",
+              "other_pages_header_sticky_bg_color": "#ffffff",
               "other_pages_header_sticky_color": "#071c1f"
             }
           }
