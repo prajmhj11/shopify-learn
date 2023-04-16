@@ -1534,7 +1534,7 @@
           "header_option_enable": true,
           "header_search_enable": true,
           "user_menu_enable": true,
-          "user_menu_handle": "",
+          "user_menu_handle": "user-menu",
           "login_title": "Login",
           "logout_title": "Logout",
           "cart_title": "Cart",
