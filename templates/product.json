@@ -152,35 +152,11 @@
             "custom_tab_title": "Size Guide",
             "custom_tab_handle": "size-chart"
           }
-        },
-        "7319ffaa-402d-4776-8024-8ac426252784": {
-          "type": "unique_tab_1",
-          "settings": {
-            "unique_tab_title": "{{ product.metafields.product.product_tab_1.value }}",
-            "unique_description_1": "[unique_description_1] Your content or text here [\/unique_description_1]"
-          }
-        },
-        "a182a27e-8fb1-49b1-8fc2-56ec8eccd553": {
-          "type": "unique_tab_2",
-          "settings": {
-            "unique_tab_title": "{{ product.metafields.product.product_tab_2.value }}",
-            "unique_description_2": "[unique_description_2] Your content or text here [\/unique_description_2]"
-          }
-        },
-        "a4850552-4a7e-4bc6-944a-8175f7157971": {
-          "type": "unique_tab_3",
-          "settings": {
-            "unique_tab_title": "{{ product.metafields.product.product_tab_3.value }}",
-            "unique_description_3": "[unique_description_3] Your content or text here [\/unique_description_3]"
-          }
         }
       },
       "block_order": [
         "19c5d1b1-f6ec-4a12-8971-5c54c1b0ae02",
-        "c9caa75f-591f-4a5f-b116-b41661b4df09",
-        "7319ffaa-402d-4776-8024-8ac426252784",
-        "a182a27e-8fb1-49b1-8fc2-56ec8eccd553",
-        "a4850552-4a7e-4bc6-944a-8175f7157971"
+        "c9caa75f-591f-4a5f-b116-b41661b4df09"
       ],
       "settings": {
         "product_tab_enable": true,

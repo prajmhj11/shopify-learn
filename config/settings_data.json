@@ -5,14 +5,14 @@
     "supported_currencies": "USD, USD - US Dollar | EUR, EUR - Euro | GBP, GBP - British Pound | INR, INR - Indian Rupee | BDT, BDT - Bangladesh Taka | JPY, JPY - Japan Yen | CAD, CAD - Canada Dollar | AUD, AUD - Australian Dollar",
     "enable_preloader": true,
     "scroll_top_enable": true,
-    "header_style_handle": "header_3",
+    "header_style_handle": "header_2",
     "global_color_enable": false,
     "color_primary": "#071c1f",
     "color_secondary": "#e53e29",
     "typography_enable": false,
     "body_font_handle": "open_sans_n4",
     "header_font_handle": "rajdhani_n7",
-    "newsletter_popup_enable": false,
+    "newsletter_popup_enable": true,
     "newsletter_bg_img": "shopify:\/\/shop_images\/newsletter-popup-1.jpg",
     "newletter_popup_title": "NEWSLETTER",
     "newsletter_text": "Enter your email below to receive a $30 coupon, special offers, exclusive discounts and more!",
@@ -1519,27 +1519,10 @@
               "other_pages_content_color": "#071c1f",
               "other_pages_border_color": "#e5eaee"
             }
-          },
-          "0432fa68-94d5-4bd0-8e6b-6fe28c5e0d91": {
-            "type": "header_color",
-            "settings": {
-              "header_color_enable": true,
-              "header_bg_color": "#ffffff",
-              "header_color": "#222222",
-              "header_sticky_bg_color": "#ffffff",
-              "header_sticky_color": "#222222",
-              "other_pages_header_color_enable": true,
-              "other_pages_header_bg_color": "#ffffff",
-              "other_pages_header_color": "#071c1f",
-              "other_pages_support_icon_color": "#e53e29",
-              "other_pages_header_sticky_bg_color": "#ffffff",
-              "other_pages_header_sticky_color": "#071c1f"
-            }
           }
         },
         "block_order": [
-          "068b3c6c-edc8-4e26-8b5f-12fa17f559a3",
-          "0432fa68-94d5-4bd0-8e6b-6fe28c5e0d91"
+          "068b3c6c-edc8-4e26-8b5f-12fa17f559a3"
         ],
         "settings": {
           "header_transparent_enable": false,
@@ -1637,14 +1620,14 @@
           "large_width_enable": true,
           "footer_top_enable": true,
           "copyright_enable": true,
-          "copyright_conten_style": "style_3",
+          "copyright_conten_style": "style_2",
           "menu_handle": "footer",
           "logo_width": 150,
           "copyright_title": "Copyright & Design By",
           "copyright_content": "Autixir -",
           "copyright_year_enable": true,
           "copy_ritht_text": "<p>Copyright ©Autixir All Right Reserved.<\/p>",
-          "section_color_enable": true,
+          "section_color_enable": false,
           "footer_bg_color": "#f2f6f7",
           "footer_color": "#071c1f",
           "footer_widget_title_color": "#071c1f",
@@ -1928,6 +1911,7 @@
           "other_page_header_transparent_enable": false,
           "large_width_enable": false,
           "sticky_header_enable": true,
+          "logo": "shopify:\/\/shop_images\/logo.png",
           "custom_logo_width_enable": true,
           "logo_width": 150,
           "support_title": "Get Support",
@@ -1947,6 +1931,7 @@
           "view_cart_title": "View Cart",
           "checkout_title": "Checkout",
           "cart_inforation": "<p>Free Shipping on All Orders Over $100!<\/p>",
+          "logo_3": "shopify:\/\/shop_images\/logo.png",
           "mobile_search_field_enable": true,
           "user_menu_title": "My Account",
           "wishlit_title": "Wishlist",
@@ -2310,6 +2295,7 @@
         ],
         "settings": {
           "sticky_header_enable": false,
+          "logo": "shopify:\/\/shop_images\/logo.png",
           "custom_logo_width_enable": true,
           "logo_width": 150,
           "support_title": "Phone",
@@ -2321,7 +2307,7 @@
           "header_option_enable": true,
           "header_search_enable": true,
           "user_menu_enable": true,
-          "user_menu_handle": "",
+          "user_menu_handle": "user-menu",
           "login_title": "Login",
           "logout_title": "Logout",
           "cart_title": "Cart",

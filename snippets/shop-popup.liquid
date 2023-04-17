@@ -1,0 +1,112 @@
+<!-- MODAL AREA START (Popup Modal) -->
+<div
+  class="ltn__modal-area shop-popup d-none----">
+  <div
+    class="modal fade"
+    id="shop_popup"
+    tabindex="-1">
+    <div
+      class="modal-dialog modal-lg"
+      role="document">
+      <div
+        class="modal-content">
+        <div
+          class="modal-header">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close">
+            <span
+              aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div
+          class="modal-body">
+          <div
+            class="ltn__newsletter-popup-item">
+            <div
+              class="row">
+              <div
+                class="col-12 col-lg-6">
+                <div
+                  class="ltn__newsletter-popup-img">
+                  {% if settings.newsletter_bg_img %}
+                    {%- assign image = settings.newsletter_bg_img -%}
+                    <span
+                      class="image-position-wrapper"
+                      style="padding-bottom: {{ 1 | divided_by: image.aspect_ratio | times: 100 }}%;">
+                      <img
+                        srcset='{% if image.width >= 270 %}
+                        {{ image | img_url: '270x' }} 270w,{% endif %}
+                      {% if image.width >= 300 %}
+                        {{ image | img_url: '300x' }} 300w,{% endif %}
+                      {% if image.width >= 370 %}
+                        {{ image | img_url: '370x' }} 370w,{% endif %}
+                      {% if image.width >= 470 %}
+                        {{ image | img_url: '470x' }} 470w,{% endif %}
+                      {% if image.width >= 570 %}
+                        {{ image | img_url: '570x' }} 570w,{% endif %}
+                      {% if image.width >= 670 %}
+                        {{ image | img_url: '670x' }} 670w,{% endif %}
+                      {% if image.width >= 770 %}
+                        {{ image | img_url: '770x' }} 1100w,{% endif %}
+                      {% if image.width >= 900 %}
+                        {{ image | img_url: '900x' }} 900w,{% endif %}
+                      {% if image.width >= 970 %}
+                        {{ image | img_url: '970x' }} 970w,{% endif %}
+                      {% if image.width >= 1100 %}
+                        {{ image | img_url: '1100x' }} 1100w,{% endif %}
+                      {% if image.width >= 1200 %}
+                        {{ image | img_url: '1200x' }} 1200w{% endif %}'
+                      loading="lazy"
+                      src="{{ image | img_url: '1200x' }}"
+                      sizes="100vw"
+                      width="{{ image.width }}"
+                      height="{{ image.height }}"
+                      alt="{{ image.alt | escape }}"
+                      class="image-position-size">
+                    </span>
+                  {% else %}
+                    <img
+                      src="https://via.placeholder.com/600x723">
+                  {% endif %}
+                </div>
+              </div>
+              <div
+                class="col 12 col-lg-6 align-self-center">
+                <div
+                  class="slide-item-info">
+                  <div
+                    class="slide-item-info-inner">
+                    <h4
+                      class="slide-sub-title ltn__secondary-color animated">WELCOME TO OUR SHOP</h4>
+                    <h1
+                      class="slide-title animated">Get $50 off on a New  Set of Tires</h1>
+                    <div
+                      class="btn-wrapper  animated">
+                      <a
+                        href="/products/c-v-product"
+                        class="theme-btn-1 btn btn-effect-1"
+                        tabindex="0">Shop Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL AREA END -->
+
+<script>
+  /* --------------------------------------------------------
+            Newsletter Popup
+        -------------------------------------------------------- */
+  setTimeout(function() {
+    $('#shop_popup').modal('show');
+  }, 10000);
+</script>

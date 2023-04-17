@@ -87,7 +87,7 @@
       "settings": {
         "category_menu_enable": true,
         "category_title": "Categories",
-        "category_menu_handle": "category-menu",
+        "category_menu_handle": "",
         "category_menu_limit_handle": 9,
         "more_title": "More categories",
         "close_title": "Close menu",
@@ -245,7 +245,7 @@
           "type": "category",
           "settings": {
             "category_handle": "best-selling",
-            "category_description_enable": true,
+            "category_description_enable": false,
             "category_custom_description": "<ul>\n                                <li><a href=\"#\">Wheel Bearing Retainer<\/a><\/li>\n                                <li><a href=\"#\">Brake Conversion Kit<\/a><\/li>\n                                <li><a href=\"#\">Shock Mount Insulator<\/a><\/li>\n                                <li><a href=\"#\">Tail Light Lens<\/a><\/li>\n                            <\/ul>"
           }
         },
