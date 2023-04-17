@@ -315,6 +315,7 @@ $.fn.headerSection = function() {
         return;
       
 
+
       this.hidePanel();
       this.elements.button.focus();
     }
@@ -326,6 +327,7 @@ $.fn.headerSection = function() {
       if (form) 
         form.submit();
       
+
     }
 
     openSelector() {
@@ -1430,12 +1432,13 @@ $.fn.multipleBanner2 = function() {
       preLoder.fadeOut(1000);
 
     };
+
+    $('body').on('show.bs.modal', '.modal', function() {
+      $('.modal:visible').removeClass('fade').modal('hide').addClass('fade');
+    });
+    
   });
 
-  $('.modal').on('show.bs.modal', function() {
-    $('.modal').not($(this)).each(function() {
-      $(this).modal('hide');
-    });
-  });
-  
+
+
 })(jQuery);
