@@ -2310,7 +2310,6 @@
         ],
         "settings": {
           "sticky_header_enable": false,
-          "logo": "shopify:\/\/shop_images\/logo.png",
           "custom_logo_width_enable": true,
           "logo_width": 150,
           "support_title": "Phone",
@@ -2322,7 +2321,7 @@
           "header_option_enable": true,
           "header_search_enable": true,
           "user_menu_enable": true,
-          "user_menu_handle": "user-menu",
+          "user_menu_handle": "",
           "login_title": "Login",
           "logout_title": "Logout",
           "cart_title": "Cart",
