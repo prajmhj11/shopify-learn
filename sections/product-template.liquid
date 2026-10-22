@@ -179,7 +179,7 @@
                 <div class="ltn__countdown ltn__countdown-2" data-countdown="{{ count_down_final }}"></div>
                 <hr>
                 {%- endif -%}
-                {%- when 'variants', block: block -%}
+                {%- when 'variants', block -%}
                 <div class="modal-product-meta ltn__product-details-menu-1 {%- unless product.variants.size > 1 -%}variant-option-none{%- endunless -%}">
                   <ul>
                     <li>
@@ -215,7 +215,7 @@
                       </div>
                     </li>
                     <li>
-                      {%- render 'product-cart-action' with product: product, current_variant: current_variant, block: block -%}
+                      {%- render 'product-cart-action' with product, product: product, current_variant: current_variant, block: block -%}
                     </li>
                     {%- if product.available and block.settings.dynamic_checkout_button_enable -%}
                     <li>
@@ -1310,3 +1310,18 @@
 {%- endif -%}
 {%- endcase -%}
 {%- endfor -%}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- when 'variants', block: block -%}"
+  to: "{%- when 'variants', block -%}"
+  position: 10936..10966
+- from: "{%- render 'product-cart-action' with product: product, current_variant:
+    current_variant, block: block -%}"
+  to: "{%- render 'product-cart-action' with product, product: product, current_variant:
+    current_variant, block: block -%}"
+  position: 12682..12797
+{% endcomment %}
